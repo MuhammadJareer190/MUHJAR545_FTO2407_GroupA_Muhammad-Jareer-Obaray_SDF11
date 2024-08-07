@@ -259,7 +259,7 @@
           <!--container-->
           <div class="container flex flex-col items-center gap-16 mx-auto my-32">
             <!--card list-->
-            <div class="grid w-full grid-cols-1 gap-5">
+            <div class="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
               <!--card1-->
               <div class="flex flex-col items-center gap-3 px-8 py-10 bg-color-white rounded-3xl shadow-main">
                 <img src="./assets/component-5/contact-icons/green-email.svg">
@@ -287,7 +287,34 @@
     </div>
     <!--FOOTER-->
     <div class="w-full bg-green-500">
-        <!-- Full-width footer container with green background -->
+      <div class="container flex flex-col mx-auto">
+        <div class="flex flex-col items-center w-full my-12">
+        <div class="flex flex-col items-center gap-6 mb-8">
+          <!--socials-->
+          <div class="flex items-center gap-8">
+            <a href="javascript:void(0)" class="text-grey-700 hover:text-grey-900">
+              <img src="./assets/component-5/footer-icons/facebook.svg">
+            </a>
+            <a href="javascript:void(0)" class="text-grey-700 hover:text-grey-900">
+              <img src="./assets/component-5/footer-icons/twitter-x.svg">
+            </a>
+            <a href="javascript:void(0)" class="text-grey-700 hover:text-grey-900">
+              <img src="./assets/component-5/footer-icons/github.svg">
+            </a>
+            <a href="javascript:void(0)"  class="text-grey-700 hover:text-grey-900">
+              <img src="./assets/component-5/footer-icons/linkedin.svg">
+            </a>
+            <a href="javascript:void(0)" class="text-grey-700 hover:text-grey-900">
+              <img src="./assets/component-5/footer-icons/insta.svg">
+            </a>
+          </div>
+          <!--copyright-->
+          <div class="flex items-center">
+            <p class="text-base font-nomal leading-7 text-center">2024 Cache Bank. All rights reserved</p>
+          </div>
+          </div>
+          </div>
+      </div>
     </div>
     <script>
         document.getElementById("mobile-menu-toggle").addEventListener("click", function() {document.getElementById("mobile-menu").classList.toggle("hidden")});
